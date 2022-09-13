@@ -1,0 +1,29 @@
+body
+{
+	background: #F0FFFF;
+}
+
+.mapdiv
+{
+	width: 33%;
+	margin: auto;
+}
+
+.mapdiv path, polygon
+{
+	stroke: #000000;
+	stroke-width: 2px;
+}
+
+#bcregion a:hover .st0, #bcregion a:active .st0,
+#bcregion a:hover .st1, #bcregion a:active .st1,
+#bcregion a:hover .st2, #bcregion a:active .st2,
+#bcregion a:hover .st3, #bcregion a:active .st3
+{
+	fill: #FA4F56;
+}
+
+.table th,td
+{
+	border: 1px solid black;
+}

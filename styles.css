@@ -1,12 +1,9 @@
-body
-{
-	background: #F0FFFF;
-}
-
 .mapdiv
 {
 	width: 33%;
 	margin: auto;
+	fill: #F0FFFF;
+	colour: #000;
 }
 
 .mapdiv path, polygon

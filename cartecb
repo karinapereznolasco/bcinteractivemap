@@ -2,7 +2,7 @@
 title: "Trouvez votre bureau de service local"
 css: styles.css
 ---
-		<h2>Find your service location in your region</h2>
+		<h2>Trouvez votre bureau de service local</h2>
 		
 <div aria-label="Carte-image de la Colombie-Britannique, version alternative suivre" role="img">
 		<svg class="mapdiv" id="bcregion" version="1.1" viewbox="0 0 2544.33 2544.33" xmlns="http://www.w3.org/2000/svg">
@@ -52,12 +52,12 @@ css: styles.css
 	</svg>
 </div>
 <details>
-	<summary>Text version</summary>
+	<summary>Version texte</summary>
 	<ul>
-		<li><a href="#anchor0">North</a></li>
-		<li><a href="#anchor1">Southern Interior</a></li>
-		<li><a href="#anchor2">Vancouver Island and Coast</a></li>
-		<li><a href="#anchor3">Mainland / Southern</a></li>
+		<li><a href="#anchor0">Nord/a></li>
+		<li><a href="#anchor1">Intérieur méridional</a></li>
+		<li><a href="#anchor2">Île/côte de Vancouver</a></li>
+		<li><a href="#anchor3">Partie continentale/Sud-Ouest</a></li>
 
 	</ul>
 </details>

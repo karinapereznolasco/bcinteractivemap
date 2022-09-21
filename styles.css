@@ -5,41 +5,38 @@
 
 .mapdiv path {
 	stroke: #000000;
-	stroke-width: 14px;
-	/* to ensure it render at 2px on the visible page. The SVG size (based on the viewbox) is ~2550x2550 but it is visually shrink to ~376x376. By doing some math, the stroke need to be ~14px to visually be rendered as 2px wide */
-	/* WCAG reference:
-	 * Non-text contrast - https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html (this is need to be compliant and have a constrast of 3:1)
-	 * Focus visible (you can see the 2px reference as a baseline ) https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html
-	 * Contrast checker online: https://webaim.org/resources/contrastchecker/
-	 */
+	stroke-width: 2px;
 }
 
 .mapdiv polygon {
 	stroke: #000000;
-	stroke-width: 14px;
-	/* See the above note about the Non-text contrast WCAG 2.1 AA requirement */
+	stroke-width: 2px;
 }
 
 .st0 {
-	fill: #98AAAF;
+	fill: #122E33;
+	stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;
 	text-align:center;
 }
 
 .st1 {
-	fill: #C0C9CC;
+	fill: #99BDC0;
+	stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;
 }
 
 .st2 {
-	fill: #50777E;
+	fill: #337C81;
+	stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;
 }
 
 .st3 {
-	fill: #08666D; /* This color have enough contrast with the black #0000 stroke */
-	
+	fill: #075C62;
+	stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;
 }
 
 .st4 {
 	fill: #F1F2F2;
+	stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;
 }
 
 .st5 {
@@ -54,9 +51,10 @@
 	fill: #414042;
 }
 
-.mapdiv a:hover .st0, .mapdiv a:active .st0, .mapdiv a:focus .st0,
-.mapdiv a:hover .st1, .mapdiv a:active .st1, .mapdiv a:focus .st1,
-.mapdiv a:hover .st2, .mapdiv a:active .st2, .mapdiv a:focus .st2,
-.mapdiv a:hover .st3, .mapdiv a:active .st3 , .mapdiv a:focus .st3 {
+#bcregion a:hover .st0, #bcregion a:active .st0, #bcregion a:focus .st0, #bcregion a:hover .st1, #bcregion a:active .st1, #bcregion a:focus .st1, #bcregion a:hover .st2, #bcregion a:active .st2, #bcregion a:focus .st2, #bcregion a:hover .st3, #bcregion a:active .st3 , #bcregion a:focus .st3 {
 	fill: #FA4F56;
+}
+
+.table th, td {
+	border: 1px solid black;
 }

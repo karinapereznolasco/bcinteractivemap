@@ -5,12 +5,12 @@
 
 .mapdiv path {
 	stroke: #FFFFFF;
-	stroke-width: 2px;
+	stroke-width: 5px;
 }
 
 .mapdiv polygon {
 	stroke: #FFFFFF;
-	stroke-width: 2px;
+	stroke-width: 5px;
 }
 
 .st0 {

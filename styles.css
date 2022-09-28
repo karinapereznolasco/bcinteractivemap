@@ -1,8 +1,6 @@
 .mapdiv {
 	width: 50%;
 	margin: auto;
-	font-family: 'Noto Sans',sans-serif;
-   	font-size: 12px;
 }
 
 .mapdiv path {
@@ -39,17 +37,23 @@
 .st4 {
 	fill: #F1F2F2;
 	stroke:#FFFFFF;
+	font-family: 'Noto Sans',sans-serif;
+   	font-size: 12px;
 }
 
 .st5 {
-	font-family: 'Arial-BoldMT';
+	font-family: 'Noto Sans',sans-serif;
+   	font-size: 12px;
 }
 
 .st6 {
-	font-size: 66.613px;
+	font-family: 'Noto Sans',sans-serif;
+   	font-size: 12px;
 }
 
 .st7 {
+	font-family: 'Noto Sans',sans-serif;
+   	font-size: 12px;
 	fill: #414042;
 }
 

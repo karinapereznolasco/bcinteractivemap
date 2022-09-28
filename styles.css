@@ -39,28 +39,28 @@
 	stroke:#FFFFFF;
 	font-family: 'Noto Sans',sans-serif;
 	font-size: 66.613px;
+	text-decoration: none;
 }
 
 .st5 {
 	font-family: 'Noto Sans',sans-serif;
 	font-size: 66.613px;
+	text-decoration: none;
 }
 
 .st6 {
 	font-family: 'Noto Sans',sans-serif;
 	font-size: 66.613px;
+	text-decoration: none;
 }
 
 .st7 {
 	font-family: 'Noto Sans',sans-serif;
 	fill: #414042;
 	font-size: 66.613px;
+	text-decoration: none;
 }
 
 #bcregion a:hover .st0, #bcregion a:active .st0, #bcregion a:focus .st0, #bcregion a:hover .st1, #bcregion a:active .st1, #bcregion a:focus .st1, #bcregion a:hover .st2, #bcregion a:active .st2, #bcregion a:focus .st2, #bcregion a:hover .st3, #bcregion a:active .st3 , #bcregion a:focus .st3 {
 	fill: #FA4F56;
-}
-
-.table th, td {
-	border: 1px solid black;
 }

@@ -3,12 +3,11 @@
 	<meta charset="utf-8">
 	<title>bootstrap.mn.css required for col-md-5</title>
 	<meta content="width=device-width,initial-scale=1" name="viewport">
-	<link href="theme-wet-boew/css/theme.min.css" rel="stylesheet">
-	<link href="styles.css" rel="stylesheet">
-	<link href="css/bootstrap.min.css" rel="stylesheet" />
-	<noscript>
-		<link href="wet-boew/css/noscript.min.css" rel="stylesheet">
-	</noscript>
+	css:
+	- styles.css
+	- css/bootstrap.min.css
+- css/noscript.min.css
+	
 </head>
 <body>
 	<div class="row">
@@ -99,7 +98,8 @@
 		<p>In addition to our presence in the BC Lower Mainland, PacifiCan has recently opened offices in Victoria, Campbell River, Kelowna, Cranbrook, Prince George, Prince Rupert and Fort St. John.&nbsp;</p>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script src="wet-boew/js/wet-boew.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	js:
+	- js/wet-boew.min.js
+	- js/bootstrap.min.js
 </body>
 </html>
